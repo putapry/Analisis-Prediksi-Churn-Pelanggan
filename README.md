@@ -64,8 +64,6 @@ Kinerja kedua model dievaluasi menggunakan metrik yang lebih relevan untuk masal
 - F1-Score: Rata-rata harmonik dari precision dan recall. Metrik ini memberikan gambaran keseimbangan antara kedua metrik tersebut.
 - ROC-AUC (Receiver Operating Characteristic - Area Under Curve): Mengukur kemampuan model dalam membedakan antara kelas positif dan negatif. Nilai ROC-AUC yang tinggi menunjukkan bahwa model memiliki performa yang baik.
 
-Hasil evaluasi menunjukkan bahwa Random Forest memiliki performa yang sedikit lebih unggul dibandingkan Logistic Regression pada metrik Recall dan F1-Score.
-
 ## Hasil dan Wawasan (Results and Insights)
 Analisis data telah mengidentifikasi beberapa wawasan kunci yang dapat memberikan pemahaman mendalam tentang faktor-faktor yang mendorong churn pelanggan.
 
