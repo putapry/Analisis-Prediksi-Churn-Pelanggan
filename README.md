@@ -79,15 +79,14 @@ Pelanggan dengan kontrak bulanan dan layanan Fiber Optic memiliki tingkat churn 
 <td><img src="monthlychurn.png" alt="Grafik Distribusi MonthlyCharges"></td>
 </tr>
 </table>
-
 Faktor-faktor seperti jenis kontrak, layanan internet, dan biaya bulanan memiliki korelasi kuat dengan churn. Pelanggan dengan kontrak bulanan dan layanan fiber optic cenderung lebih sering churn.
 
 <p align="center">
   <img src="churn rate tech.png" alt="Grafik Hubungan antara Layanan TechSupport dan Churn" width="600" />
 </p>
-
 Pelanggan yang tidak berlangganan layanan pendukung seperti TechSupport cenderung lebih sering churn.
 
-![Perbandingan Churn Rate](karakteristik pelanggan.png)
-
+<p align="center">
+  <img src="karakteristik pelanggan.png" alt="Grafik Perbandingan Churn Rate" width="600" />
+</p>
 Pelanggan yang tidak memiliki ikatan keluarga (tanpa partner dan tanggungan) cenderung lebih mudah untuk churn.
