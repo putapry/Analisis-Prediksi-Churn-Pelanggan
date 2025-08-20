@@ -65,3 +65,27 @@ Kinerja kedua model dievaluasi menggunakan metrik yang lebih relevan untuk masal
 - ROC-AUC (Receiver Operating Characteristic - Area Under Curve): Mengukur kemampuan model dalam membedakan antara kelas positif dan negatif. Nilai ROC-AUC yang tinggi menunjukkan bahwa model memiliki performa yang baik.
 
 Hasil evaluasi menunjukkan bahwa Random Forest memiliki performa yang sedikit lebih unggul dibandingkan Logistic Regression pada metrik Recall dan F1-Score.
+
+## Hasil dan Wawasan (Results and Insights)
+Analisis data telah mengidentifikasi beberapa wawasan kunci yang dapat memberikan pemahaman mendalam tentang faktor-faktor yang mendorong churn pelanggan.
+
+Faktor Utama Pemicu Churn
+Pelanggan dengan kontrak bulanan dan layanan Fiber Optic memiliki tingkat churn yang jauh lebih tinggi. Selain itu, biaya bulanan yang tinggi juga terlihat memiliki hubungan dengan churn.
+
+<table>
+<tr>
+<td><img src="kontrakchun.png" alt="Grafik hubungan Kontrak dan Churn"></td>
+<td><img src="internetchun.png" alt="Grafik hubungan InternetService dan Churn"></td>
+<td><img src="monthlychurn.png" alt="Grafik Distribusi MonthlyCharges"></td>
+</tr>
+</table>
+
+Faktor-faktor seperti jenis kontrak, layanan internet, dan biaya bulanan memiliki korelasi kuat dengan churn. Pelanggan dengan kontrak bulanan dan layanan fiber optic cenderung lebih sering churn.
+
+![Grafik Hubungan antara Layanan TechSupport dan Churn](churn rate tech.png)
+
+Pelanggan yang tidak berlangganan layanan pendukung seperti TechSupport cenderung lebih sering churn.
+
+![Perbandingan Churn Rate](karakteristik pelanggan.png)
+
+Pelanggan yang tidak memiliki ikatan keluarga (tanpa partner dan tanggungan) cenderung lebih mudah untuk churn.
