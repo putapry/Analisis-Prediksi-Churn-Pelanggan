@@ -105,7 +105,29 @@ Pelanggan yang tidak memiliki ikatan keluarga (tanpa partner dan tanggungan) cen
 <br>
 
 
-Rekomendasi Bisnis yang Tepat
+## Rekomendasi Bisnis
 1. Program Retensi Bertarget: Gunakan model ini untuk mengidentifikasi pelanggan dengan probabilitas churn tertinggi. Tawarkan insentif seperti diskon, peningkatan layanan, atau dukungan khusus.
 2. Analisis Fitur: Model menunjukkan bahwa fitur seperti 'Contract', 'InternetService', dan 'Tenure' sangat berpengaruh. Dorong pelanggan 'Month-to-month' untuk beralih ke kontrak jangka panjang. Jika layanan internet (misalnya Fiber optic) adalah penyebabnya, fokus pada peningkatan kualitasnya.
 3. Optimalisasi Anggaran: Alokasikan anggaran dari kampanye retensi massal ke program retensi yang terfokus pada pelanggan yang benar-benar berisiko.
+
+## Tech Stack
+Proyek ini dibangun menggunakan bahasa pemrograman Python dengan library utama sebagai berikut:
+
+Manipulasi Data:
+pandas: Untuk pembersihan, pra-pemrosesan, dan analisis data.
+numpy: Untuk operasi numerik dan array.
+
+Visualisasi Data:
+matplotlib: Untuk membuat grafik statis.
+seaborn: Berbasis matplotlib, digunakan untuk membuat visualisasi yang lebih menarik dan informatif.
+
+Pemodelan & Evaluasi:
+scikit-learn: Digunakan untuk semua tahapan pemodelan, termasuk:
+train_test_split: Memisahkan data menjadi training dan testing.
+LabelEncoder: Mengubah data kategorikal menjadi numerik.
+LogisticRegression: Salah satu model klasifikasi yang digunakan.
+RandomForestClassifier: Model utama yang digunakan untuk prediksi.
+GradientBoostingClassifier: Model tambahan yang dicoba.
+GridSearchCV: Untuk mencari parameter terbaik (hyperparameter tuning) pada model.
+metrics: Untuk evaluasi model, termasuk recall_score, roc_auc_score, f1_score, dan confusion_matrix.
+imblearn.over_sampling: Digunakan SMOTE untuk menangani ketidakseimbangan kelas (imbalanced data).
