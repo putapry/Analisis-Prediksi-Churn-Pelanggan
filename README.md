@@ -114,20 +114,20 @@ Pelanggan yang tidak memiliki ikatan keluarga (tanpa partner dan tanggungan) cen
 Proyek ini dibangun menggunakan bahasa pemrograman Python dengan library utama sebagai berikut:
 
 Manipulasi Data:
-pandas: Untuk pembersihan, pra-pemrosesan, dan analisis data.
-numpy: Untuk operasi numerik dan array.
+- pandas: Untuk pembersihan, pra-pemrosesan, dan analisis data.
+- numpy: Untuk operasi numerik dan array.
 
 Visualisasi Data:
-matplotlib: Untuk membuat grafik statis.
-seaborn: Berbasis matplotlib, digunakan untuk membuat visualisasi yang lebih menarik dan informatif.
+- matplotlib: Untuk membuat grafik statis.
+- seaborn: Berbasis matplotlib, digunakan untuk membuat visualisasi yang lebih menarik dan informatif.
 
 Pemodelan & Evaluasi:
-scikit-learn: Digunakan untuk semua tahapan pemodelan, termasuk:
-train_test_split: Memisahkan data menjadi training dan testing.
-LabelEncoder: Mengubah data kategorikal menjadi numerik.
-LogisticRegression: Salah satu model klasifikasi yang digunakan.
-RandomForestClassifier: Model utama yang digunakan untuk prediksi.
-GradientBoostingClassifier: Model tambahan yang dicoba.
-GridSearchCV: Untuk mencari parameter terbaik (hyperparameter tuning) pada model.
-metrics: Untuk evaluasi model, termasuk recall_score, roc_auc_score, f1_score, dan confusion_matrix.
-imblearn.over_sampling: Digunakan SMOTE untuk menangani ketidakseimbangan kelas (imbalanced data).
+- scikit-learn: Digunakan untuk semua tahapan pemodelan, termasuk:
+- train_test_split: Memisahkan data menjadi training dan testing.
+- LabelEncoder: Mengubah data kategorikal menjadi numerik.
+- LogisticRegression: Salah satu model klasifikasi yang digunakan.
+- RandomForestClassifier: Model utama yang digunakan untuk prediksi.
+- GradientBoostingClassifier: Model tambahan yang dicoba.
+- GridSearchCV: Untuk mencari parameter terbaik (hyperparameter tuning) pada model.
+- metrics: Untuk evaluasi model, termasuk recall_score, roc_auc_score, f1_score, dan confusion_matrix.
+- imblearn.over_sampling: Digunakan SMOTE untuk menangani ketidakseimbangan kelas (imbalanced data).
