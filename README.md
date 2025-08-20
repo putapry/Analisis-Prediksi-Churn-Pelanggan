@@ -78,19 +78,22 @@ Pelanggan dengan kontrak bulanan dan layanan Fiber Optic memiliki tingkat churn 
 </tr>
 </table>
 Faktor-faktor seperti jenis kontrak, layanan internet, dan biaya bulanan memiliki korelasi kuat dengan churn. Pelanggan dengan kontrak bulanan dan layanan fiber optic cenderung lebih sering churn.
-
+</p>
+<br>
 
 <p align="center">
   <img src="churn rate tech.png" alt="Grafik Hubungan antara Layanan TechSupport dan Churn" width="600" />
 </p>
 Pelanggan yang tidak berlangganan layanan pendukung seperti TechSupport cenderung lebih sering churn.
-
+</p>
+<br>
 
 <p align="center">
   <img src="karakteristik pelanggan.png" alt="Grafik Perbandingan Churn Rate" width="600" />
 </p>
 Pelanggan yang tidak memiliki ikatan keluarga (tanpa partner dan tanggungan) cenderung lebih mudah untuk churn.
-
+</p>
+<br>
 
 <p align="center">
   <img src="roc curve.png" alt="Kurva ROC-AUC untuk Model" width="400" />
@@ -99,6 +102,7 @@ Pelanggan yang tidak memiliki ikatan keluarga (tanpa partner dan tanggungan) cen
 <p align="center">
   Model Random Forest yang telah di-tuning adalah pilihan terbaik karena secara efektif menyeimbangkan kemampuan untuk mendeteksi pelanggan churn (Recall) dengan akurasi prediksi secara keseluruhan.
 </p>
+<br>
 
 
 Rekomendasi Bisnis yang Tepat
