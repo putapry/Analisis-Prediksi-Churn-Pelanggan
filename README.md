@@ -82,7 +82,9 @@ Pelanggan dengan kontrak bulanan dan layanan Fiber Optic memiliki tingkat churn 
 
 Faktor-faktor seperti jenis kontrak, layanan internet, dan biaya bulanan memiliki korelasi kuat dengan churn. Pelanggan dengan kontrak bulanan dan layanan fiber optic cenderung lebih sering churn.
 
-![Grafik Hubungan antara Layanan TechSupport dan Churn](Churn rate tech.png)
+<p align="center">
+  <img src="churn rate tech.png" alt="Grafik Hubungan antara Layanan TechSupport dan Churn" width="600" />
+</p>
 
 Pelanggan yang tidak berlangganan layanan pendukung seperti TechSupport cenderung lebih sering churn.
 
