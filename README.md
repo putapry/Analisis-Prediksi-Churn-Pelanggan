@@ -1,4 +1,4 @@
-<img width="1274" height="72" alt="image" src="https://github.com/user-attachments/assets/1b48cd7a-d117-4dd4-b35d-bf18444a295b" /># Analisis-Prediksi-Churn-Pelanggan
+# Analisis-Prediksi-Churn-Pelanggan
 Proyek ini menganalisis faktor yang menyebabkan churn pelanggan dan membangun model prediktif.
 
 ## Sumber Data
