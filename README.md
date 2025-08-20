@@ -98,3 +98,8 @@ Pelanggan yang tidak memiliki ikatan keluarga (tanpa partner dan tanggungan) cen
 <p align="center">
   Model Random Forest yang telah di-tuning adalah pilihan terbaik karena secara efektif menyeimbangkan kemampuan untuk mendeteksi pelanggan churn (Recall) dengan akurasi prediksi secara keseluruhan.
 </p>
+
+Rekomendasi Bisnis yang Tepat
+1. Program Retensi Bertarget: Gunakan model ini untuk mengidentifikasi pelanggan dengan probabilitas churn tertinggi. Tawarkan insentif seperti diskon, peningkatan layanan, atau dukungan khusus.
+2. Analisis Fitur: Model menunjukkan bahwa fitur seperti 'Contract', 'InternetService', dan 'Tenure' sangat berpengaruh. Dorong pelanggan 'Month-to-month' untuk beralih ke kontrak jangka panjang. Jika layanan internet (misalnya Fiber optic) adalah penyebabnya, fokus pada peningkatan kualitasnya.
+3. Optimalisasi Anggaran: Alokasikan anggaran dari kampanye retensi massal ke program retensi yang terfokus pada pelanggan yang benar-benar berisiko.
