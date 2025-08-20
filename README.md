@@ -1,4 +1,4 @@
-# Analisis-Prediksi-Churn-Pelanggan
+<img width="1274" height="72" alt="image" src="https://github.com/user-attachments/assets/1b48cd7a-d117-4dd4-b35d-bf18444a295b" /># Analisis-Prediksi-Churn-Pelanggan
 Proyek ini menganalisis faktor yang menyebabkan churn pelanggan dan membangun model prediktif.
 
 ## Sumber Data
@@ -82,7 +82,7 @@ Pelanggan dengan kontrak bulanan dan layanan Fiber Optic memiliki tingkat churn 
 
 Faktor-faktor seperti jenis kontrak, layanan internet, dan biaya bulanan memiliki korelasi kuat dengan churn. Pelanggan dengan kontrak bulanan dan layanan fiber optic cenderung lebih sering churn.
 
-![Grafik Hubungan antara Layanan TechSupport dan Churn](churn rate tech.png)
+![Grafik Hubungan antara Layanan TechSupport dan Churn](Churn rate tech.png)
 
 Pelanggan yang tidak berlangganan layanan pendukung seperti TechSupport cenderung lebih sering churn.
 
